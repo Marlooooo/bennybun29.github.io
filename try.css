@@ -77,10 +77,10 @@ body {
 .lower-content p {
     text-align: justify;
     text-align-last: justify;
-    max-width: 80%; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the paragraph within its container */
+    max-width: 80%;
+    margin: 0 auto; 
     font-style: oblique;
-    letter-spacing: -0.5px; /* Adjust the letter-spacing as needed */
+    letter-spacing: -0.5px; 
 }
 
 .div-for-content {
@@ -107,6 +107,14 @@ body {
 .work-list li {
     margin-bottom: 5px;
     text-align: center; 
+    font-size: 13px;
+}
+
+.work-list h5, .work-list h6 {
+    text-align: center;
+    line-height: 0px;
+    padding: 0px;
+    margin: 15px;
 }
 
 .skill-list ul {
