@@ -31,7 +31,7 @@ body {
 }
 
 .img1 img {
-    margin-left: 10vw;
+    margin-left: 11vw;
     margin-right: auto;
     max-width: 85%;
 }
@@ -39,11 +39,13 @@ body {
 .buttons {
     margin-top: 20px;
     text-align: center;
+    margin-left: 1.8vw;
 }
 
 .buttons button:hover{
     cursor: pointer;
 }
+
 .buttons .writeButton{
     box-shadow: 5px 5px rgb(202, 202, 202);
     display: block;
@@ -59,6 +61,12 @@ body {
     font-size: 4vh;
     border-radius: 10px;
     margin-bottom: 10px; /* Add margin between buttons */
+    transition: 1s;
+}
+
+.buttons .writeButton:hover{
+    background-color: grey;
+    border-color: grey;
 }
 
 .buttons .browseNotes {
@@ -76,10 +84,72 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 10px; /* Add margin between buttons */
+    transition: 1s;
 }
 
+.buttons .browseNotes:hover {
+    background-color: grey;
+    border-color: grey;
+    color: white;
+    box-shadow: 5px 5px rgb(202, 202, 202);
+}
 a {
     text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    padding-bottom: 9px;
+}
+.logo .anony {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 350;
+    font-size: small;
+}
+
+.logo .notes {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center; /* Align the list items center */
+}
+
+li {
+    display: inline-block; /* Display list items horizontally */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 @media screen and (min-width: 768px) {
@@ -104,3 +174,6 @@ a {
         margin: 10px auto; /* Center the buttons */
     }
 }
+
+
+ 
