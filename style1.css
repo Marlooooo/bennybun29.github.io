@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    
+}
+
+.header{
+    display: block;
+    background-color: black;
+    padding: 0.5vh;
+    color: white;
+    text-align: center;
+    border-bottom: 2vh solid grey;
+    font-size: 3vh 3vw;
+}
+
+.header .anony{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 350;
+
+}
+
+.header .notes{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.img1 img{
+    margin-left: 10vw;
+    max-width: 50%;
+}
+
+.buttons{
+    margin-left: 3vw 3vh;
+    margin-right: 10vw;
+}
+
+.buttons .writeButton{
+    margin-top: 50px;
+    display: block;
+    text-decoration: none;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 350;
+    font-size: medium;
+    border-radius: 10px; 
+}
+
+.buttons .browseNotes{
+        margin-top: 5px;
+        display: block;
+        text-decoration: none;
+        padding-left: 75px;
+        padding-right: 70px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: black;
+        color: white;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 350;
+        font-size: medium;
+        border-radius: 10px; 
+    }
+    
+a{
+    text-decoration: none;
+}
